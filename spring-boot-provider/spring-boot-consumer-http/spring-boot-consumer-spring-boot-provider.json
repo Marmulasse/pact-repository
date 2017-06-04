@@ -30,6 +30,24 @@
             "providerState": "default"
         }
     ],
+    "messages": [
+        {
+            "description": "a test message",
+            "metaData": {
+                "contentType": "application/json",
+                "Content-Type": "application/json; charset=UTF-8"
+            },
+            "contents": {
+                "label": "BZvraLNhrEcExtMfLinv"
+            },
+            "providerState": "default",
+            "matchingRules": {
+                "$.body.label": {
+                    "match": "type"
+                }
+            }
+        }
+    ],
     "metadata": {
         "pact-specification": {
             "version": "3.0.0"
