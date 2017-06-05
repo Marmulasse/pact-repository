@@ -7,29 +7,13 @@
     },
     "messages": [
         {
-            "description": "a test message",
-            "metaData": {
-                "Content-Type": "application/json; charset=UTF-8",
-                "contentType": "application/json"
-            },
-            "contents": {
-                "username": "FjdRbUROtujrCRZHkefV"
-            },
-            "providerState": "default",
-            "matchingRules": {
-                "$.body.username": {
-                    "match": "type"
-                }
-            }
-        },
-        {
             "description": "user created",
             "metaData": {
                 "contentType": "application/json",
                 "Content-Type": "application/json; charset=UTF-8"
             },
             "contents": {
-                "username": "upONnaFzjZViwlABUkCv"
+                "username": "xBJqgWrnexvZnnnrBqyh"
             },
             "providerState": "default",
             "matchingRules": {
