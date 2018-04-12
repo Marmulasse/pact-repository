@@ -1,0 +1,41 @@
+{
+    "provider": {
+        "name": "spring-boot-provider-http"
+    },
+    "consumer": {
+        "name": "spring-boot-consumer-http"
+    },
+    "interactions": [
+        {
+            "description": "Test Provider",
+            "request": {
+                "method": "GET",
+                "path": "/api/provider/sample"
+            },
+            "response": {
+                "status": 200,
+                "headers": {
+                    "content-type": "application/json",
+                    "Content-Type": "application/json; charset=UTF-8"
+                },
+                "body": {
+                    "label": "nzegXBviFocykBdIcAqM"
+                },
+                "matchingRules": {
+                    "$.body.label": {
+                        "match": "type"
+                    }
+                }
+            },
+            "providerState": "default"
+        }
+    ],
+    "metadata": {
+        "pact-specification": {
+            "version": "3.0.0"
+        },
+        "pact-jvm": {
+            "version": "3.3.7"
+        }
+    }
+}
